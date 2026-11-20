@@ -18,7 +18,7 @@ while(true){
  switch(choice){
   case "1":
    System.out.print("Enter student name:");
-   String name = scanner.nextLine();
+   String name = scanner.nextLine()
    System.out.print("Enter status (Present/Absent):");
    String status = scanner.nextLine();
    markAttendance(name,status);
